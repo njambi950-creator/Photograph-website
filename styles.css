@@ -10,3 +10,18 @@ body {
   padding: 20px;
   border: 1px solid #ddd;
 }
+header {
+  background-color: violet;
+  text-align: center;
+  padding: 2px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-family: "Dancing Script";
+  font-size: 60px;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 20px;
+  font-family: "Dancing Script";
+}
