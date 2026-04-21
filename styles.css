@@ -119,3 +119,13 @@ p {
 html{
   scroll-behavior: smooth;
 }
+footer{
+  text-align: center;
+  padding: 40px 0;
+  background-color: #F3E5F5;
+  color: #555;
+  font-size: 28px;
+  font-weight: 50;
+  border-top: 1px solid #eee;
+  margin-top: 50px;
+}
