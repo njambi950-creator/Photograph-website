@@ -113,6 +113,9 @@ h2 {
   text-align: center;
   text-decoration: underline;
 }
-p{
-  font-family:"Dancing Script";
+p {
+  font-family: "Dancing Script";
+}
+html{
+  scroll-behavior: smooth;
 }
