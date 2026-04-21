@@ -10,6 +10,17 @@ header {
   padding: 2px;
   margin-bottom: 20px;
 }
+.about-container{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 5%;
+}
+.about-image{
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
 h1 {
   font-family: "Dancing Script";
   font-size: 60px;
