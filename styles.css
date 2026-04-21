@@ -10,16 +10,38 @@ header {
   padding: 2px;
   margin-bottom: 20px;
 }
-.about-container{
+.about-container {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
   padding: 40px 5%;
+  margin: 20px 0;
 }
-.about-image{
+.about-image {
   width: 300px;
   height: auto;
   border-radius: 8px;
+}
+.about-text {
+  max-width: 600px;
+}
+.section-title {
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 40px 0 20px;
+  text-decoration: underline;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 0 5%;
+}
+.gallery-grid img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 h1 {
   font-family: "Dancing Script";
@@ -45,11 +67,11 @@ nav a {
   letter-spacing: 0.5px;
 }
 nav a:hover {
-  color: blue;
+  color: #b2d8d8;
   text-decoration: underline;
 }
 section h2 {
-  color: cornflowerblue;
+  color: #f8c8dc;
   font-size: 28px;
   margin-bottom: 14px;
 }
@@ -86,4 +108,11 @@ form button {
 }
 form button:hover {
   background-color: blueviolet;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+p{
+  font-family:"Dancing Script";
 }
